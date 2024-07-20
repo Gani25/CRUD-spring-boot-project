@@ -15,7 +15,7 @@
 	<name>cruddemo</name>
 	<description>Demo CRUD project for Spring Boot </description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -65,8 +65,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.11.0</version> <!-- Ensure this version supports Java 21 -->
 				<configuration>
-					<source>21</source>
-					<target>21</target>
+					<release>17</release>
 				</configuration>
 			</plugin>
 		</plugins>
